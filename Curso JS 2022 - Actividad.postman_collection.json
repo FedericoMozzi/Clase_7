@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "3d10c3f3-68e6-47d6-afd6-4993565ea070",
+		"name": "Curso JS 2022 - Actividad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24495483"
+	},
+	"item": [
+		{
+			"name": "GET PERSONA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6376fd05b5f0e1eb8516783b.mockapi.io/api/v1/persona",
+					"protocol": "https",
+					"host": [
+						"6376fd05b5f0e1eb8516783b",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"persona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST PERSONA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Federico",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Mozzi",
+							"type": "text"
+						},
+						{
+							"key": "DNI",
+							"value": "44827901",
+							"type": "text"
+						},
+						{
+							"key": "telefono",
+							"value": "3472528693",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://6376fd05b5f0e1eb8516783b.mockapi.io/api/v1/persona",
+					"protocol": "https",
+					"host": [
+						"6376fd05b5f0e1eb8516783b",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"persona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE PERSONA",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://6376fd05b5f0e1eb8516783b.mockapi.io/api/v1/persona/1",
+					"protocol": "https",
+					"host": [
+						"6376fd05b5f0e1eb8516783b",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"persona",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT PERSONA",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "telefono",
+							"value": "24",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://6376fd05b5f0e1eb8516783b.mockapi.io/api/v1/persona/1",
+					"protocol": "https",
+					"host": [
+						"6376fd05b5f0e1eb8516783b",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"persona",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CURSO",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://6376fd05b5f0e1eb8516783b.mockapi.io/api/v1/curso",
+					"protocol": "https",
+					"host": [
+						"6376fd05b5f0e1eb8516783b",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"curso"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST CURSO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "descripcion",
+							"value": "Curso JS 2023",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://6376fd05b5f0e1eb8516783b.mockapi.io/api/v1/curso",
+					"protocol": "https",
+					"host": [
+						"6376fd05b5f0e1eb8516783b",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"curso"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
